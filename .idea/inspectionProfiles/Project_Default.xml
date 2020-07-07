@@ -1,0 +1,66 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="JavaDoc" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="TOP_LEVEL_CLASS_OPTIONS">
+        <value>
+          <option name="ACCESS_JAVADOC_REQUIRED_FOR" value="none" />
+          <option name="REQUIRED_TAGS" value="" />
+        </value>
+      </option>
+      <option name="INNER_CLASS_OPTIONS">
+        <value>
+          <option name="ACCESS_JAVADOC_REQUIRED_FOR" value="none" />
+          <option name="REQUIRED_TAGS" value="" />
+        </value>
+      </option>
+      <option name="METHOD_OPTIONS">
+        <value>
+          <option name="ACCESS_JAVADOC_REQUIRED_FOR" value="none" />
+          <option name="REQUIRED_TAGS" value="@return@param@throws or @exception" />
+        </value>
+      </option>
+      <option name="FIELD_OPTIONS">
+        <value>
+          <option name="ACCESS_JAVADOC_REQUIRED_FOR" value="none" />
+          <option name="REQUIRED_TAGS" value="" />
+        </value>
+      </option>
+      <option name="IGNORE_DEPRECATED" value="false" />
+      <option name="IGNORE_JAVADOC_PERIOD" value="true" />
+      <option name="IGNORE_DUPLICATED_THROWS" value="false" />
+      <option name="IGNORE_POINT_TO_ITSELF" value="false" />
+      <option name="myAdditionalJavadocTags" value="date,description,description:" />
+    </inspection_tool>
+    <inspection_tool class="JdCyclomaticComplexityBlock" enabled="false" level="BLOCKER (超高复杂度)" enabled_by_default="false" />
+    <inspection_tool class="JdCyclomaticComplexityCritical" enabled="false" level="CRITICAL (高复杂度)" enabled_by_default="false" />
+    <inspection_tool class="JdCyclomaticComplexityMajor" enabled="false" level="MAJOR (中复杂度)" enabled_by_default="false" />
+    <inspection_tool class="JdCyclomaticComplexityWarning" enabled="false" level="WARNING (低复杂度)" enabled_by_default="false" />
+    <inspection_tool class="JdEnumConstantsMustHaveComment" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="JdJDAndroidSafeALIOSS" enabled="false" level="高危风险" enabled_by_default="false" />
+    <inspection_tool class="JdJDAndroidSafeAllowAllHoseName" enabled="false" level="中危风险" enabled_by_default="false" />
+    <inspection_tool class="JdJDAndroidSafeAllowBackup" enabled="false" level="低危风险" enabled_by_default="false" />
+    <inspection_tool class="JdJDAndroidSafeCheckTrust" enabled="false" level="中危风险" enabled_by_default="false" />
+    <inspection_tool class="JdJDAndroidSafeCryptoLength" enabled="false" level="中危风险" enabled_by_default="false" />
+    <inspection_tool class="JdJDAndroidSafeDatabase" enabled="false" level="中危风险" enabled_by_default="false" />
+    <inspection_tool class="JdJDAndroidSafeDebuggable" enabled="false" level="低危风险" enabled_by_default="false" />
+    <inspection_tool class="JdJDAndroidSafeECBModule" enabled="false" level="中危风险" enabled_by_default="false" />
+    <inspection_tool class="JdJDAndroidSafePermission" enabled="false" level="低危风险" enabled_by_default="false" />
+    <inspection_tool class="JdJDAndroidSafeReadFile" enabled="false" level="中危风险" enabled_by_default="false" />
+    <inspection_tool class="JdJDAndroidSafeSharedPre" enabled="false" level="中危风险" enabled_by_default="false" />
+    <inspection_tool class="JdJDAndroidSafeWeakEncrypt" enabled="false" level="中危风险" enabled_by_default="false" />
+    <inspection_tool class="JdJDAndroidSafeWebviewError" enabled="false" level="中危风险" enabled_by_default="false" />
+    <inspection_tool class="JdJDAndroidSavePasswd" enabled="false" level="低危风险" enabled_by_default="false" />
+    <inspection_tool class="JdJDAndroidSystemOut" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="JdJDAndroidWebviewFileAccess" enabled="false" level="低危风险" enabled_by_default="false" />
+    <inspection_tool class="JdJDLog" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="JdJDSafeDruid" enabled="false" level="中危风险" enabled_by_default="false" />
+    <inspection_tool class="JdJDSafeFastJson" enabled="false" level="中危风险" enabled_by_default="false" />
+    <inspection_tool class="JdJDSafeHessianInput" enabled="false" level="中危风险" enabled_by_default="false" />
+    <inspection_tool class="JdJDSafeJavaObject" enabled="false" level="中危风险" enabled_by_default="false" />
+    <inspection_tool class="JdJDSafeSqlInjectJava" enabled="false" level="高危风险" enabled_by_default="false" />
+    <inspection_tool class="JdJDSafeSqlInjectXML" enabled="false" level="高危风险" enabled_by_default="false" />
+    <inspection_tool class="JdJDStrutsDev" enabled="false" level="中危风险" enabled_by_default="false" />
+    <inspection_tool class="JdJDXXE" enabled="false" level="中危风险" enabled_by_default="false" />
+  </profile>
+</component>
