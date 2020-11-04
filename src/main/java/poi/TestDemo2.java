@@ -1,3 +1,4 @@
+/*
 package poi;
 
 import com.itextpdf.text.Document;
@@ -12,15 +13,18 @@ import com.itextpdf.tool.xml.XMLWorkerHelper;
 import java.io.*;
 import java.net.URL;
 
+*/
 /**
  * @author wangjufeng1
  * @description
  * @date 2019/4/26
- */
+ *//*
+
 public class TestDemo2 {
     public static void htmlCodeComeString(String linkcss,String htmlCode,
                                           String outputFile,String title) throws Exception{
-       /* OutputStream os = new FileOutputStream(outputFile);
+       */
+/* OutputStream os = new FileOutputStream(outputFile);
         ITextRenderer renderer = new ITextRenderer();
         renderer.setDocumentFromString(getConversionHtmlCode(link css,htmlCode,title));
         ITextFontResolver fontResolver = renderer.getFontResolver();
@@ -32,7 +36,8 @@ public class TestDemo2 {
         renderer.layout(); renderer.createPDF(os);
         System.out.println("======转换成功!");
         os.close();
-        os.flush();*/
+        os.flush();*//*
+
     }
 
     public static void main(String[] args) throws IOException, DocumentException {
@@ -54,3 +59,4 @@ public class TestDemo2 {
 
     }
 }
+*/

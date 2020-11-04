@@ -1,3 +1,4 @@
+/*
 package poi;
 
 import java.awt.Insets;
@@ -9,11 +10,13 @@ import java.security.InvalidParameterException;
 
 import org.zefer.pd4ml.PD4Constants;
 import org.zefer.pd4ml.PD4ML;
+*/
 /**
  * @author wangjufeng1
  * @description
  * @date 2019/4/26
- */
+ *//*
+
 public class GettingStarted1 {
     protected int topValue = 10;
     protected int leftValue = 20;
@@ -60,3 +63,4 @@ public class GettingStarted1 {
         System.out.println( outputPath + "\ndone." );
     }
 }
+*/

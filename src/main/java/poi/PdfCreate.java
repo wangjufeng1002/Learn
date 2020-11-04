@@ -1,27 +1,31 @@
+/*
 package poi;
 
-import com.itextpdf.text.BaseColor;
-import com.itextpdf.text.Rectangle;
-import com.itextpdf.text.pdf.PdfContentByte;
-import com.itextpdf.text.pdf.PdfGState;
-import com.itextpdf.text.pdf.PdfReader;
-import com.itextpdf.text.pdf.PdfStamper;
-import com.lowagie.text.*;
+import com.itextpdf.text.Document;
+import com.itextpdf.text.PageSize;
+import com.itextpdf.tool.xml.html.table.Table;
+import com.lowagie.text.Chunk;
+import com.lowagie.text.Element;
 import com.lowagie.text.Font;
 import com.lowagie.text.pdf.BaseFont;
 import com.lowagie.text.pdf.PdfWriter;
+import javafx.scene.control.Cell;
 import org.junit.Test;
 import org.zefer.pd4ml.PD4Constants;
 import org.zefer.pd4ml.PD4ML;
 
 import java.awt.*;
-import java.io.*;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.StringReader;
 
+*/
 /**
  * @author wangjufeng1
  * @description
  * @date 2019/4/26
- */
+ *//*
+
 public class PdfCreate {
     private static BaseFont STSONGFont;
     public static final int TITLE_FONT_SIZE = 16;
@@ -78,9 +82,12 @@ public class PdfCreate {
         pd4ml.enableDebugInfo();
         pd4ml.render(new StringReader(s), outputStream);  //如果用上面的fos，就是写出到指定的文件
         // File output = new File("D:\\Test\\pdf7.pdf");
-       /* java.io.FileOutputStream fos1 = new java.io.FileOutputStream(output);
+       */
+/* java.io.FileOutputStream fos1 = new java.io.FileOutputStream(output);
         fos1.write( os.toByteArray());
-        fos1.close();*/
+        fos1.close();*//*
+
         //addWater();
     }
 }
+*/

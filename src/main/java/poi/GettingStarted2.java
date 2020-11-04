@@ -1,3 +1,4 @@
+/*
 package poi;
 import java.awt.Insets;;
 import java.io.BufferedInputStream;
@@ -13,11 +14,13 @@ import java.security.InvalidParameterException;
 
 import org.zefer.pd4ml.PD4Constants;
 import org.zefer.pd4ml.PD4ML;
+*/
 /**
  * @author wangjufeng1
  * @description
  * @date 2019/4/26
- */
+ *//*
+
 public class GettingStarted2 {
     protected int topValue = 10;
     protected int leftValue = 20;
@@ -103,3 +106,4 @@ public class GettingStarted2 {
         return fos.toString(encoding);
     }
 }
+*/

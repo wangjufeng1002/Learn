@@ -8,6 +8,10 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.locks.ReentrantReadWriteLock;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * @author wangjufeng1
@@ -35,7 +39,6 @@ public class TestClass {
        }*/
     }
 
-    @Test
     public  void test() throws IOException, AWTException, InterruptedException {
         Desktop.getDesktop().open(new File("D:\\项目\\法拍\\test\\test_notice\\发布说明文档.docx"));
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
@@ -74,15 +77,30 @@ public class TestClass {
 
 
     }
-    @Test
+
     public void testCloseWord(){
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
         int screenWidth = (int) screenSize.getWidth();
         int screenHeight = (int) screenSize.getHeight();
         System.out.println("屏幕宽度：" + screenWidth + "，屏幕高度：" + screenHeight);
+        //ConcurrentHashMap
+
     }
-    @Test
+
     public void testAu3() throws IOException {
         Runtime.getRuntime().exec("C:\\Users\\wangjufeng1\\Desktop\\autolt-test.exe 小红汽车.jpg 灰汽车.jpg");
+    }
+
+    public void testRegx(){
+
+        String test = "M{databaseIp}S{databasePort}";
+
+
+        Pattern pattern = Pattern.compile("(?<=[S]\\{)(.+?)(?=})");
+        Matcher matcher = pattern.matcher(test);
+        while(matcher.find()){
+            System.out.println(matcher.group());
+        }
+
     }
 }

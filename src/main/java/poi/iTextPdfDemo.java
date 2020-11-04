@@ -1,13 +1,10 @@
 package poi;
 
 import com.itextpdf.text.*;
-import com.itextpdf.text.PageSize;
-import com.itextpdf.text.Phrase;
 import com.itextpdf.text.pdf.*;
 import com.itextpdf.tool.xml.XMLWorkerFontProvider;
 import com.itextpdf.tool.xml.XMLWorkerHelper;
 import org.jsoup.Jsoup;
-import org.junit.Test;
 
 import java.io.*;
 
@@ -17,7 +14,7 @@ import java.io.*;
  * @date 2019/4/26
  */
 public class iTextPdfDemo {
-    @Test
+
     public void export() throws IOException, DocumentException {
         //创建document
         Document document = new Document(PageSize.A4);
