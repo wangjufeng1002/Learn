@@ -1,5 +1,4 @@
-import learn.javassist.proxy02.A;
-import org.junit.Test;
+import proxy.javassist.proxy02.A;
 
 import java.awt.*;
 import java.awt.event.InputEvent;
@@ -8,8 +7,6 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.locks.ReentrantReadWriteLock;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
