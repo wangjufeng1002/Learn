@@ -15,7 +15,7 @@
         <commons-codec.version>1.8</commons-codec.version>
         <commons-collections.version>3.2.2</commons-collections.version>
         <commons-fileupload.version>1.3.3</commons-fileupload.version>
-        <commons-beanutils.version>1.9.2</commons-beanutils.version>
+        <commons-beanutils.version>1.9.4</commons-beanutils.version>
         <spring.version>5.1.7.RELEASE</spring.version>
     </properties>
     <build>
