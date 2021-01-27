@@ -8,7 +8,9 @@ package jdk.function;
  */
 public class TestService {
 
-    public void test(TestInterface testInterface){
-        testInterface.sub();
+    public int test(TestInterface testInterface,String mess){
+        TestInterface.staticMethod();
+       return  testInterface.create(mess);
     }
+
 }

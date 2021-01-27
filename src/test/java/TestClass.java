@@ -1,3 +1,4 @@
+import org.junit.Test;
 import proxy.javassist.proxy02.A;
 
 import java.awt.*;
@@ -98,6 +99,23 @@ public class TestClass {
         while(matcher.find()){
             System.out.println(matcher.group());
         }
+    }
+    @Test
+    public void test2(){
+     /*   Integer a = 2;
+        Integer b = 2;
+        System.out.println(a==b);
+*/
+        ArrayList<Object> a = new ArrayList<>(1);
+        a.add("ssss");
+
+
+        ArrayList<Object> b = new ArrayList<>(1);
+        b.add("ssss");
+        b.add("ssss");
+
+        a.addAll(b);
+
 
     }
 }

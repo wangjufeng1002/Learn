@@ -9,8 +9,8 @@ package jdk.function;
 public class Main {
     public static void main(String[] args) {
         TestService testService = new TestService();
-        testService.test(()->{
-            System.out.println("11111111111");
-        });
+        System.out.println(testService.test(TestInterface.DEFAULT_2,"传入参数！！！"));
+
+        MergeEnum.AA.getiTestMergeService().a(1);
     }
 }
